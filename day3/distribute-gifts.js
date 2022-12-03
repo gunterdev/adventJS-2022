@@ -1,4 +1,4 @@
-distributeGifts = (p, r) => ((r.join("").length * 2) / p.join("").length) | 0;
+export const distributeGifts = (p, r) => ((r.join("").length * 2) / p.join("").length) | 0;
 
 // distributeGifts =(packOfGifts, reindeers) => {
 //   return Math.ceil(
